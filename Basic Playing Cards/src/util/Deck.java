@@ -50,7 +50,7 @@ public class Deck {
 	public String getAbbrString(){
 		String str = "";
 		for (Card c : deck) {
-			str += c.getAbbr() + "\n";
+			str += c.getAbbr() + " ";
 		}
 		return str;
 	}
@@ -58,7 +58,7 @@ public class Deck {
 	public String toString() {
 		String str = "";
 		for (Card c : deck) {
-			str += c + "\n";
+			str += c + " ";
 		}
 		return str;
 	}

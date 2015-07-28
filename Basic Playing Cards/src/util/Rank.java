@@ -21,7 +21,7 @@ public enum Rank {
 	JACK("JACK", "J"),
 	QUEEN("QUEEN", "Q"),
 	KING("KING", "K"),
-	JOKER("JOKER", "JK");
+	JOKER("JOKER", "");
 	
 	//Represents the name of the Rank.
 	private final String name;
