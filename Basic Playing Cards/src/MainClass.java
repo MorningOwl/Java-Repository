@@ -1,10 +1,7 @@
 import util.Deck;
 
-public class main {
+public class MainClass {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Deck deck = new Deck();
 		deck.shuffle();

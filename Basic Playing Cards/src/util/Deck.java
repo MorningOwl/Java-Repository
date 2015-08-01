@@ -1,9 +1,6 @@
 package util;
 
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Stack;
 
 public class Deck {
@@ -14,7 +11,6 @@ public class Deck {
 			Rank.JACK, Rank.QUEEN, Rank.KING };
 	private Stack<Card> deck;
 
-	@SuppressWarnings("unchecked")
 	public Deck() {
 		deck = new Stack<Card>();
 		int suitCount = 0;
@@ -50,7 +46,7 @@ public class Deck {
 	public String getAbbrString(){
 		String str = "";
 		for (Card c : deck) {
-			str += c.getAbbr() + " ";
+			str += c.getAbbr() + "\n";
 		}
 		return str;
 	}
@@ -58,7 +54,7 @@ public class Deck {
 	public String toString() {
 		String str = "";
 		for (Card c : deck) {
-			str += c + " ";
+			str += c + "\n";
 		}
 		return str;
 	}
