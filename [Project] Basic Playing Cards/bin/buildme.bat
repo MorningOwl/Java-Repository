@@ -1,0 +1,1 @@
+jar -cvfm exec.jar manifest.txt MainClass.class util\*.class
